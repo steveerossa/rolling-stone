@@ -10,14 +10,14 @@ spring:
     tomcat.max-idle: 20
     tomcat.min-idle: 15
     validationQuery: SELECT 1
+    driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.MySQL5InnoDBDialect
           show-sql: true
           format-sql: true
-    hibernate:
-      ddl-auto: update
+          ddl-auto: update
 
 
 management:
