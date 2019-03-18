@@ -1,6 +1,6 @@
 
 server:
-  port: 9095
+  port: 8686
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ecommdb?useSSL=false
