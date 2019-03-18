@@ -23,7 +23,7 @@ spring:
 
 management:
   server:
-    port: 9097
+    port: 9098
   endpoints:
     web:
       exposure:
